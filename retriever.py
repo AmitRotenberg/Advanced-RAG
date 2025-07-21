@@ -41,6 +41,54 @@ class RAGRetriever:
         res = self.es.search(index=self.index_name, body=script_query)
         return [hit["_source"]["context"] for hit in res["hits"]["hits"]], [f"{i}_{hit['_source']['chunk_id']}" for i, hit in enumerate(res["hits"]["hits"]) if i < top_k]
 
+    def search_on_questions(self, query_text, top_k=1):
+        query_vector = self.get_embedding(query_text)
+
+        script_query = {
+            "size": top_k,
+            "query": {
+                "script_score": {
+                "query": { "match_all": {} },
+                "script": {
+                    "source": """
+                    double maxSim = 0.0;
+                    double sim;
+
+                    if (doc['question_1_vector'].size() != 0) {
+                        sim = cosineSimilarity(params.query_vector, 'question_1_vector') + 1.0;
+                        maxSim = Math.max(maxSim, sim);
+                    }
+                    if (doc['question_2_vector'].size() != 0) {
+                        sim = cosineSimilarity(params.query_vector, 'question_2_vector') + 1.0;
+                        maxSim = Math.max(maxSim, sim);
+                    }
+                    if (doc['question_3_vector'].size() != 0) {
+                        sim = cosineSimilarity(params.query_vector, 'question_3_vector') + 1.0;
+                        maxSim = Math.max(maxSim, sim);
+                    }
+                    if (doc['question_4_vector'].size() != 0) {
+                        sim = cosineSimilarity(params.query_vector, 'question_4_vector') + 1.0;
+                        maxSim = Math.max(maxSim, sim);
+                    }
+                    if (doc['question_5_vector'].size() != 0) {
+                        sim = cosineSimilarity(params.query_vector, 'question_5_vector') + 1.0;
+                        maxSim = Math.max(maxSim, sim);
+                    }
+
+                    return maxSim;
+                    """,
+                    "params": {
+                    "query_vector": query_vector
+                    }
+                }
+                }
+            }
+            }
+
+        res = self.es.search(index=self.index_name, body=script_query)
+        return [hit["_source"]["context"] for hit in res["hits"]["hits"]], [f"{i}_{hit['_source']['chunk_id']}" for i, hit in enumerate(res["hits"]["hits"]) if i < top_k]
+
+
     def generate_answer(self, context, question):
         prompt = f"Answer the question based on the context below:\n\n{context}\n\nQuestion: {question}"
         response = requests.post(
