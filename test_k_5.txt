@@ -1,0 +1,798 @@
+=== Evaluating method 'search' (top_k=5, max_chunks=10) ===
+
+-- Chunk 1/10 (title: 'Beyoncé', id: 'Beyoncé_1') --
+   [Question #1 id=56be85543aeaaa14008c9063] 'When did Beyonce start becoming popular?'
+      Retrieved chunk IDs: ['Beyoncé_21', 'Beyoncé_58', 'Beyoncé_36', 'Beyoncé_53', 'Beyoncé_44']
+      -> Chunk match: False
+   [Question #2 id=56be85543aeaaa14008c9065] 'What areas did Beyonce compete in when she was growing up?'
+      Retrieved chunk IDs: ['Beyoncé_36', 'Beyoncé_4', 'Beyoncé_39', 'Beyoncé_37', 'Beyoncé_5']
+      -> Chunk match: False
+   [Question #3 id=56be85543aeaaa14008c9066] 'When did Beyonce leave Destiny's Child and become a solo singer?'
+      Retrieved chunk IDs: ['Beyoncé_21', 'Beyoncé_58', 'Beyoncé_36', 'Beyoncé_37', 'Beyoncé_44']
+      -> Chunk match: False
+   [Question #4 id=56bf6b0f3aeaaa14008c9601] 'In what city and state did Beyonce  grow up? '
+      Retrieved chunk IDs: ['Beyoncé_21', 'Beyoncé_4', 'Beyoncé_36', 'Beyoncé_64', 'Beyoncé_5']
+      -> Chunk match: False
+   [Question #5 id=56bf6b0f3aeaaa14008c9602] 'In which decade did Beyonce become famous?'
+      Retrieved chunk IDs: ['Beyoncé_36', 'Beyoncé_21', 'Beyoncé_58', 'Beyoncé_38', 'Beyoncé_53']
+      -> Chunk match: False
+   [Question #6 id=56bf6b0f3aeaaa14008c9603] 'In what R&B group was she the lead singer?'
+      Retrieved chunk IDs: ['Beyoncé_39', 'Beyoncé_38', 'Beyoncé_58', 'Beyoncé_52', 'Beyoncé_37']
+      -> Chunk match: False
+   [Question #7 id=56bf6b0f3aeaaa14008c9604] 'What album made her a worldwide known artist?'
+      Retrieved chunk IDs: ['Beyoncé_58', 'Beyoncé_52', 'Beyoncé_41', 'Beyoncé_39', 'Beyoncé_45']
+      -> Chunk match: False
+   [Question #8 id=56bf6b0f3aeaaa14008c9605] 'Who managed the Destiny's Child group?'
+      Retrieved chunk IDs: ['Beyoncé_21', 'Beyoncé_37', 'Beyoncé_58', 'Beyoncé_8', 'Beyoncé_5']
+      -> Chunk match: False
+   [Question #9 id=56d43c5f2ccc5a1400d830a9] 'When did Beyoncé rise to fame?'
+      Retrieved chunk IDs: ['Beyoncé_21', 'Beyoncé_58', 'Beyoncé_36', 'Beyoncé_31', 'Beyoncé_44']
+      -> Chunk match: False
+   [Question #10 id=56d43c5f2ccc5a1400d830aa] 'What role did Beyoncé have in Destiny's Child?'
+      Retrieved chunk IDs: ['Beyoncé_58', 'Beyoncé_21', 'Beyoncé_36', 'Beyoncé_37', 'Beyoncé_31']
+      -> Chunk match: False
+   [Question #11 id=56d43c5f2ccc5a1400d830ab] 'What was the first album Beyoncé released as a solo artist?'
+      Retrieved chunk IDs: ['Beyoncé_36', 'Beyoncé_38', 'Beyoncé_21', 'Beyoncé_40', 'Beyoncé_11']
+      -> Chunk match: False
+   [Question #12 id=56d43c5f2ccc5a1400d830ac] 'When did Beyoncé release Dangerously in Love?'
+      Retrieved chunk IDs: ['Beyoncé_21', 'Beyoncé_36', 'Beyoncé_58', 'Beyoncé_44', 'Beyoncé_26']
+      -> Chunk match: False
+   [Question #13 id=56d43c5f2ccc5a1400d830ad] 'How many Grammy awards did Beyoncé win for her first solo album?'
+      Retrieved chunk IDs: ['Beyoncé_36', 'Beyoncé_21', 'Beyoncé_58', 'Beyoncé_38', 'Beyoncé_53']
+      -> Chunk match: False
+   [Question #14 id=56d43ce42ccc5a1400d830b4] 'What was Beyoncé's role in Destiny's Child?'
+      Retrieved chunk IDs: ['Beyoncé_58', 'Beyoncé_36', 'Beyoncé_37', 'Beyoncé_31', 'Beyoncé_21']
+      -> Chunk match: False
+   [Question #15 id=56d43ce42ccc5a1400d830b5] 'What was the name of Beyoncé's first solo album?'
+      Retrieved chunk IDs: ['Beyoncé_36', 'Beyoncé_21', 'Beyoncé_38', 'Beyoncé_11', 'Beyoncé_17']
+      -> Chunk match: False
+
+-- Chunk 2/10 (title: 'Beyoncé', id: 'Beyoncé_2') --
+   [Question #16 id=56be86cf3aeaaa14008c9076] 'After her second solo album, what other entertainment venture did Beyonce explore?'
+      Retrieved chunk IDs: ['Beyoncé_58', 'Beyoncé_53', 'Beyoncé_21', 'Beyoncé_36', 'Beyoncé_44']
+      -> Chunk match: False
+   [Question #17 id=56be86cf3aeaaa14008c9078] 'Which artist did Beyonce marry?'
+      Retrieved chunk IDs: ['Beyoncé_21', 'Beyoncé_28', 'Beyoncé_30', 'Beyoncé_41', 'Beyoncé_27']
+      -> Chunk match: False
+   [Question #18 id=56be86cf3aeaaa14008c9079] 'To set the record for Grammys, how many did Beyonce win?'
+      Retrieved chunk IDs: ['Beyoncé_21', 'Beyoncé_38', 'Beyoncé_55', 'Beyoncé_36', 'Beyoncé_58']
+      -> Chunk match: False
+   [Question #19 id=56bf6e823aeaaa14008c9627] 'For what movie did Beyonce receive  her first Golden Globe nomination?'
+      Retrieved chunk IDs: ['Beyoncé_55', 'Beyoncé_21', 'Beyoncé_17', 'Beyoncé_16', 'Beyoncé_31']
+      -> Chunk match: False
+   [Question #20 id=56bf6e823aeaaa14008c9629] 'When did Beyonce take a hiatus in her career and take control of her management?'
+      Retrieved chunk IDs: ['Beyoncé_21', 'Beyoncé_58', 'Beyoncé_44', 'Beyoncé_53', 'Beyoncé_33']
+      -> Chunk match: False
+   [Question #21 id=56bf6e823aeaaa14008c962a] 'Which album was darker in tone from her previous work?'
+      Retrieved chunk IDs: ['Beyoncé_58', 'Beyoncé_21', 'Beyoncé_45', 'Beyoncé_38', 'Beyoncé_36']
+      -> Chunk match: False
+   [Question #22 id=56bf6e823aeaaa14008c962b] 'After what movie portraying Etta James, did Beyonce create Sasha Fierce?'
+      Retrieved chunk IDs: ['Beyoncé_55', 'Beyoncé_21', 'Beyoncé_36', 'Beyoncé_16', 'Beyoncé_58']
+      -> Chunk match: False
+   [Question #23 id=56d43da72ccc5a1400d830bd] 'When did Destiny's Child end their group act?'
+      Retrieved chunk IDs: ['Beyoncé_58', 'Beyoncé_21', 'Beyoncé_33', 'Beyoncé_36', 'Beyoncé_53']
+      -> Chunk match: False
+   [Question #24 id=56d43da72ccc5a1400d830be] 'What was the name of Beyoncé's second solo album?'
+      Retrieved chunk IDs: ['Beyoncé_36', 'Beyoncé_11', 'Beyoncé_40', 'Beyoncé_17', 'Beyoncé_21']
+      -> Chunk match: False
+   [Question #25 id=56d43da72ccc5a1400d830bf] 'What was Beyoncé's first acting job, in 2006?'
+      Retrieved chunk IDs: ['Beyoncé_21', 'Beyoncé_55', 'Beyoncé_16', 'Beyoncé_58', 'Beyoncé_36']
+      -> Chunk match: False
+   [Question #26 id=56d43da72ccc5a1400d830c0] 'Who is Beyoncé married to?'
+      Retrieved chunk IDs: ['Beyoncé_21', 'Beyoncé_33', 'Beyoncé_58', 'Beyoncé_53', 'Beyoncé_36']
+      -> Chunk match: False
+   [Question #27 id=56d43da72ccc5a1400d830c1] 'What is the name of Beyoncé's alter-ego?'
+      Retrieved chunk IDs: ['Beyoncé_44', 'Beyoncé_58', 'Beyoncé_21', 'Beyoncé_36', 'Beyoncé_41']
+      -> Chunk match: False
+
+-- Chunk 3/10 (title: 'Beyoncé', id: 'Beyoncé_3') --
+   [Question #28 id=56be88473aeaaa14008c9080] 'In her music, what are some recurring elements in them?'
+      Retrieved chunk IDs: ['Beyoncé_58', 'Beyoncé_36', 'Beyoncé_37', 'Beyoncé_39', 'Beyoncé_31']
+      -> Chunk match: False
+   [Question #29 id=56be88473aeaaa14008c9083] 'Time magazine named her one of the most 100 what people of the century?'
+      Retrieved chunk IDs: ['Beyoncé_58', 'Beyoncé_32', 'Beyoncé_41', 'Beyoncé_53', 'Beyoncé_21']
+      -> Chunk match: False
+   [Question #30 id=56be88473aeaaa14008c9084] 'Which magazine declared her the most dominant woman musician?'
+      Retrieved chunk IDs: ['Beyoncé_58', 'Beyoncé_45', 'Beyoncé_46', 'Beyoncé_53', 'Beyoncé_38']
+      -> Chunk match: False
+   [Question #31 id=56bf725c3aeaaa14008c9643] 'In which decade did the Recording Industry Association of America recognize Beyonce as the The Top Certified Artist?'
+      Retrieved chunk IDs: ['Beyoncé_58', 'Beyoncé_21', 'Beyoncé_38', 'Beyoncé_32', 'Beyoncé_53']
+      -> Chunk match: False
+   [Question #32 id=56bf725c3aeaaa14008c9644] 'What magazine rated Beyonce as the most powerful female musician in 2015?'
+      Retrieved chunk IDs: ['Beyoncé_34', 'Beyoncé_46', 'Beyoncé_58', 'Beyoncé_45', 'Beyoncé_38']
+      -> Chunk match: False
+   [Question #33 id=56bf725c3aeaaa14008c9645] 'How did Beyonce describe herself as a feminist?'
+      Retrieved chunk IDs: ['Beyoncé_21', 'Beyoncé_32', 'Beyoncé_31', 'Beyoncé_58', 'Beyoncé_41']
+      -> Chunk match: False
+   [Question #34 id=56bf725c3aeaaa14008c9646] 'In which years did Time rate Beyonce in the 100 most influential people in the world?'
+      Retrieved chunk IDs: ['Beyoncé_58', 'Beyoncé_46', 'Beyoncé_38', 'Beyoncé_53', 'Beyoncé_31']
+      -> Chunk match: False
+   [Question #35 id=56bf725c3aeaaa14008c9647] 'How many records has Beyonce sold in her 19 year career?'
+      Retrieved chunk IDs: ['Beyoncé_58', 'Beyoncé_21', 'Beyoncé_38', 'Beyoncé_53', 'Beyoncé_36']
+      -> Chunk match: False
+   [Question #36 id=56d43f7e2ccc5a1400d830c7] 'How many records did Beyoncé sell as part of Destiny's Child?'
+      Retrieved chunk IDs: ['Beyoncé_58', 'Beyoncé_21', 'Beyoncé_37', 'Beyoncé_36', 'Beyoncé_31']
+      -> Chunk match: False
+   [Question #37 id=56d43f7e2ccc5a1400d830c8] 'After leaving Destiny's Child, how many records did Beyoncé release under her own name?'
+      Retrieved chunk IDs: ['Beyoncé_58', 'Beyoncé_38', 'Beyoncé_37', 'Beyoncé_21', 'Beyoncé_36']
+      -> Chunk match: False
+   [Question #38 id=56d43f7e2ccc5a1400d830c9] 'How many Grammy awards has Beyoncé won?'
+      Retrieved chunk IDs: ['Beyoncé_21', 'Beyoncé_58', 'Beyoncé_36', 'Beyoncé_38', 'Beyoncé_53']
+      -> Chunk match: False
+   [Question #39 id=56d43f7e2ccc5a1400d830cb] 'What magazine named Beyoncé as the most powerful female musician for 2015?'
+      Retrieved chunk IDs: ['Beyoncé_46', 'Beyoncé_34', 'Beyoncé_38', 'Beyoncé_45', 'Beyoncé_58']
+      -> Chunk match: False
+
+-- Chunk 4/10 (title: 'Beyoncé', id: 'Beyoncé_4') --
+   [Question #40 id=56be892d3aeaaa14008c908b] 'Beyonce's younger sibling also sang with her in what band?'
+      Retrieved chunk IDs: ['Beyoncé_4', 'Beyoncé_5', 'Beyoncé_42', 'Beyoncé_38', 'Beyoncé_39']
+      -> Chunk match: True
+   [Question #41 id=56be892d3aeaaa14008c908c] 'Where did Beyonce get her name from?'
+      Retrieved chunk IDs: ['Beyoncé_21', 'Beyoncé_58', 'Beyoncé_36', 'Beyoncé_53', 'Beyoncé_45']
+      -> Chunk match: False
+   [Question #42 id=56be892d3aeaaa14008c908d] 'What race was Beyonce's father?'
+      Retrieved chunk IDs: ['Beyoncé_4', 'Beyoncé_5', 'Beyoncé_39', 'Beyoncé_36', 'Beyoncé_45']
+      -> Chunk match: True
+   [Question #43 id=56be892d3aeaaa14008c908e] 'Beyonce's childhood home believed in what religion?'
+      Retrieved chunk IDs: ['Beyoncé_4', 'Beyoncé_5', 'Beyoncé_31', 'Beyoncé_39', 'Beyoncé_58']
+      -> Chunk match: True
+   [Question #44 id=56bf74d53aeaaa14008c9659] 'Beyonce's father worked as a sales manager for what company?'
+      Retrieved chunk IDs: ['Beyoncé_5', 'Beyoncé_4', 'Beyoncé_58', 'Beyoncé_46', 'Beyoncé_39']
+      -> Chunk match: True
+   [Question #45 id=56bf74d53aeaaa14008c965a] 'Beyonce's mother worked in what industry?'
+      Retrieved chunk IDs: ['Beyoncé_4', 'Beyoncé_5', 'Beyoncé_39', 'Beyoncé_58', 'Beyoncé_41']
+      -> Chunk match: True
+   [Question #46 id=56bf74d53aeaaa14008c965b] 'What younger sister of Beyonce also appeared in Destiny's Child?'
+      Retrieved chunk IDs: ['Beyoncé_21', 'Beyoncé_58', 'Beyoncé_36', 'Beyoncé_38', 'Beyoncé_37']
+      -> Chunk match: False
+   [Question #47 id=56bf74d53aeaaa14008c965d] 'Beyonce is a descendent of what Arcadian leader?'
+      Retrieved chunk IDs: ['Beyoncé_58', 'Beyoncé_4', 'Beyoncé_32', 'Beyoncé_36', 'Beyoncé_53']
+      -> Chunk match: True
+   [Question #48 id=56d440df2ccc5a1400d830d1] 'What company did Beyoncé's father work for when she was a child?'
+      Retrieved chunk IDs: ['Beyoncé_5', 'Beyoncé_4', 'Beyoncé_39', 'Beyoncé_46', 'Beyoncé_21']
+      -> Chunk match: True
+   [Question #49 id=56d440df2ccc5a1400d830d2] 'What did Beyoncé's mother own when Beyoncé was a child?'
+      Retrieved chunk IDs: ['Beyoncé_58', 'Beyoncé_21', 'Beyoncé_36', 'Beyoncé_53', 'Beyoncé_37']
+      -> Chunk match: False
+   [Question #50 id=56d440df2ccc5a1400d830d3] 'What is the name of Beyoncé's younger sister?'
+      Retrieved chunk IDs: ['Beyoncé_21', 'Beyoncé_4', 'Beyoncé_38', 'Beyoncé_32', 'Beyoncé_27']
+      -> Chunk match: True
+   [Question #51 id=56d440df2ccc5a1400d830d4] 'Beyoncé is a descendant of which Acadian leader?'
+      Retrieved chunk IDs: ['Beyoncé_4', 'Beyoncé_39', 'Beyoncé_46', 'Beyoncé_41', 'Beyoncé_38']
+      -> Chunk match: True
+   [Question #52 id=56d440df2ccc5a1400d830d5] 'Beyoncé was raised in what religion?'
+      Retrieved chunk IDs: ['Beyoncé_4', 'Beyoncé_36', 'Beyoncé_39', 'Beyoncé_58', 'Beyoncé_31']
+      -> Chunk match: True
+
+-- Chunk 5/10 (title: 'Beyoncé', id: 'Beyoncé_5') --
+   [Question #53 id=56be8a583aeaaa14008c9094] 'What town did Beyonce go to school in?'
+      Retrieved chunk IDs: ['Beyoncé_4', 'Beyoncé_5', 'Beyoncé_21', 'Beyoncé_36', 'Beyoncé_38']
+      -> Chunk match: True
+   [Question #54 id=56be8a583aeaaa14008c9095] 'Who was the first person to notice Beyonce's singing ability?'
+      Retrieved chunk IDs: ['Beyoncé_21', 'Beyoncé_58', 'Beyoncé_39', 'Beyoncé_45', 'Beyoncé_36']
+      -> Chunk match: False
+   [Question #55 id=56be8a583aeaaa14008c9097] 'Beyonce moved to which town after she left her first elementary school?'
+      Retrieved chunk IDs: ['Beyoncé_5', 'Beyoncé_4', 'Beyoncé_38', 'Beyoncé_55', 'Beyoncé_36']
+      -> Chunk match: True
+   [Question #56 id=56bf76ef3aeaaa14008c9664] 'Which of her teachers discovered Beyonce's musical talent?'
+      Retrieved chunk IDs: ['Beyoncé_5', 'Beyoncé_4', 'Beyoncé_39', 'Beyoncé_41', 'Beyoncé_45']
+      -> Chunk match: True
+   [Question #57 id=56bf76ef3aeaaa14008c9665] 'I which church was Beyonce  a member and soloist  in the choir?'
+      Retrieved chunk IDs: ['Beyoncé_5', 'Beyoncé_4', 'Beyoncé_21', 'Beyoncé_36', 'Beyoncé_58']
+      -> Chunk match: True
+   [Question #58 id=56bf76ef3aeaaa14008c9666] 'What type of school was Parker Elementary School?'
+      Retrieved chunk IDs: ['Beyoncé_58', 'Beyoncé_53', 'Beyoncé_21', 'Beyoncé_44', 'Beyoncé_36']
+      -> Chunk match: False
+   [Question #59 id=56bf76ef3aeaaa14008c9667] 'Which song did Beyonce sing to win a competition at age 7?'
+      Retrieved chunk IDs: ['Beyoncé_5', 'Beyoncé_36', 'Beyoncé_21', 'Beyoncé_4', 'Beyoncé_55']
+      -> Chunk match: True
+   [Question #60 id=56d443ef2ccc5a1400d830db] 'What city was Beyoncé's elementary school located in?'
+      Retrieved chunk IDs: ['Beyoncé_4', 'Beyoncé_5', 'Beyoncé_21', 'Beyoncé_53', 'Beyoncé_38']
+      -> Chunk match: True
+   [Question #61 id=56d443ef2ccc5a1400d830dc] 'What was the name of Beyoncé's first dance instructor?'
+      Retrieved chunk IDs: ['Beyoncé_4', 'Beyoncé_5', 'Beyoncé_39', 'Beyoncé_21', 'Beyoncé_38']
+      -> Chunk match: True
+   [Question #62 id=56d443ef2ccc5a1400d830dd] 'How old was Beyoncé when she won a school talent show?'
+      Retrieved chunk IDs: ['Beyoncé_21', 'Beyoncé_58', 'Beyoncé_36', 'Beyoncé_32', 'Beyoncé_33']
+      -> Chunk match: False
+   [Question #63 id=56d443ef2ccc5a1400d830df] 'What choir did Beyoncé sing in for two years?'
+      Retrieved chunk IDs: ['Beyoncé_5', 'Beyoncé_4', 'Beyoncé_21', 'Beyoncé_55', 'Beyoncé_38']
+      -> Chunk match: True
+
+-- Chunk 6/10 (title: 'Beyoncé', id: 'Beyoncé_6') --
+   [Question #64 id=56be8bab3aeaaa14008c909f] 'Who decided to place Beyonce's group in Star Search the talent show?'
+      Retrieved chunk IDs: ['Beyoncé_21', 'Beyoncé_58', 'Beyoncé_33', 'Beyoncé_32', 'Beyoncé_36']
+      -> Chunk match: False
+   [Question #65 id=56be8bab3aeaaa14008c90a0] 'In 1995, who decided to manage the girls singing group?'
+      Retrieved chunk IDs: ['Beyoncé_58', 'Beyoncé_39', 'Beyoncé_45', 'Beyoncé_38', 'Beyoncé_53']
+      -> Chunk match: False
+   [Question #66 id=56be8bab3aeaaa14008c90a1] 'Who was the first record label to give the girls a record deal?'
+      Retrieved chunk IDs: ['Beyoncé_58', 'Beyoncé_21', 'Beyoncé_45', 'Beyoncé_53', 'Beyoncé_38']
+      -> Chunk match: False
+   [Question #67 id=56bf79c73aeaaa14008c966d] 'Who brought Beyonce to California and enter her group in Star Search?'
+      Retrieved chunk IDs: ['Beyoncé_21', 'Beyoncé_58', 'Beyoncé_33', 'Beyoncé_53', 'Beyoncé_39']
+      -> Chunk match: False
+   [Question #68 id=56bf79c73aeaaa14008c966e] 'In what year did Beyonce's father quit his job to manage her group?'
+      Retrieved chunk IDs: ['Beyoncé_5', 'Beyoncé_58', 'Beyoncé_21', 'Beyoncé_4', 'Beyoncé_36']
+      -> Chunk match: False
+   [Question #69 id=56bf79c73aeaaa14008c966f] 'What large record company recorded Beyonce's group's first album?'
+      Retrieved chunk IDs: ['Beyoncé_6', 'Beyoncé_58', 'Beyoncé_21', 'Beyoncé_36', 'Beyoncé_38']
+      -> Chunk match: True
+   [Question #70 id=56bf79c73aeaaa14008c9670] 'What record company first signed Beyonce's group and later cut them?'
+      Retrieved chunk IDs: ['Beyoncé_6', 'Beyoncé_21', 'Beyoncé_5', 'Beyoncé_38', 'Beyoncé_58']
+      -> Chunk match: True
+   [Question #71 id=56bf79c73aeaaa14008c9671] 'At what age did Beyonce meet LaTavia Robertson?'
+      Retrieved chunk IDs: ['Beyoncé_21', 'Beyoncé_4', 'Beyoncé_36', 'Beyoncé_41', 'Beyoncé_30']
+      -> Chunk match: False
+   [Question #72 id=56d45abf2ccc5a1400d830e5] 'How old was Beyoncé when she met LaTavia Roberson?'
+      Retrieved chunk IDs: ['Beyoncé_21', 'Beyoncé_36', 'Beyoncé_58', 'Beyoncé_30', 'Beyoncé_44']
+      -> Chunk match: False
+   [Question #73 id=56d45abf2ccc5a1400d830e6] 'What was the name of the first group Beyoncé was a part of?'
+      Retrieved chunk IDs: ['Beyoncé_5', 'Beyoncé_4', 'Beyoncé_38', 'Beyoncé_21', 'Beyoncé_39']
+      -> Chunk match: False
+   [Question #74 id=56d45abf2ccc5a1400d830e7] 'Who placed Girl's Tyme in Star Search?'
+      Retrieved chunk IDs: ['Beyoncé_21', 'Beyoncé_58', 'Beyoncé_33', 'Beyoncé_6', 'Beyoncé_39']
+      -> Chunk match: True
+   [Question #75 id=56d45abf2ccc5a1400d830e8] 'When did Beyoncé begin to manage the girl group?'
+      Retrieved chunk IDs: ['Beyoncé_58', 'Beyoncé_21', 'Beyoncé_36', 'Beyoncé_44', 'Beyoncé_31']
+      -> Chunk match: False
+   [Question #76 id=56d45abf2ccc5a1400d830e9] 'Who signed the girl group on October 5, 1995?'
+      Retrieved chunk IDs: ['Beyoncé_21', 'Beyoncé_39', 'Beyoncé_58', 'Beyoncé_38', 'Beyoncé_53']
+      -> Chunk match: False
+
+-- Chunk 7/10 (title: 'Beyoncé', id: 'Beyoncé_7') --
+   [Question #77 id=56be8c8a3aeaaa14008c90a9] 'Which film featured Destiny's Child's first major single?'
+      Retrieved chunk IDs: ['Beyoncé_58', 'Beyoncé_21', 'Beyoncé_38', 'Beyoncé_16', 'Beyoncé_37']
+      -> Chunk match: False
+   [Question #78 id=56be8c8a3aeaaa14008c90ab] 'For which song, did Destiny's Child take home the grammy award for best R&B performance?'
+      Retrieved chunk IDs: ['Beyoncé_55', 'Beyoncé_9', 'Beyoncé_36', 'Beyoncé_8', 'Beyoncé_21']
+      -> Chunk match: False
+   [Question #79 id=56be8c8a3aeaaa14008c90ac] 'Who did Beyonce record with for the movie "The Best Man?"'
+      Retrieved chunk IDs: ['Beyoncé_21', 'Beyoncé_36', 'Beyoncé_58', 'Beyoncé_53', 'Beyoncé_39']
+      -> Chunk match: False
+   [Question #80 id=56bf7cb63aeaaa14008c9677] 'Beyonce's group changed their name to Destiny's Child in what year?'
+      Retrieved chunk IDs: ['Beyoncé_58', 'Beyoncé_21', 'Beyoncé_12', 'Beyoncé_37', 'Beyoncé_38']
+      -> Chunk match: False
+   [Question #81 id=56bf7cb63aeaaa14008c9678] 'The name Destiny's Child was based on a quote in which book of the Bible?'
+      Retrieved chunk IDs: ['Beyoncé_58', 'Beyoncé_32', 'Beyoncé_4', 'Beyoncé_5', 'Beyoncé_37']
+      -> Chunk match: False
+   [Question #82 id=56bf7cb63aeaaa14008c9679] 'Debut song, "Killing Time" was featured on what movie's sound track?'
+      Retrieved chunk IDs: ['Beyoncé_58', 'Beyoncé_53', 'Beyoncé_36', 'Beyoncé_21', 'Beyoncé_16']
+      -> Chunk match: False
+   [Question #83 id=56bf7cb63aeaaa14008c967a] 'What song won Best R&B Performance in the 43 Annual Grammy Awards?'
+      Retrieved chunk IDs: ['Beyoncé_21', 'Beyoncé_38', 'Beyoncé_55', 'Beyoncé_39', 'Beyoncé_26']
+      -> Chunk match: False
+   [Question #84 id=56bf7cb63aeaaa14008c967b] 'What singer did Beyonce record a song with for the movie, ''The Best Man"?'
+      Retrieved chunk IDs: ['Beyoncé_39', 'Beyoncé_41', 'Beyoncé_52', 'Beyoncé_58', 'Beyoncé_45']
+      -> Chunk match: False
+   [Question #85 id=56d45fcb2ccc5a1400d830f9] 'Where did Destiny's Child get their name from?'
+      Retrieved chunk IDs: ['Beyoncé_58', 'Beyoncé_21', 'Beyoncé_39', 'Beyoncé_37', 'Beyoncé_45']
+      -> Chunk match: False
+   [Question #86 id=56d45fcb2ccc5a1400d830fa] 'Destiny's Child song, Killing Time, was included in which film's soundtrack?'
+      Retrieved chunk IDs: ['Beyoncé_16', 'Beyoncé_58', 'Beyoncé_21', 'Beyoncé_38', 'Beyoncé_53']
+      -> Chunk match: False
+   [Question #87 id=56d45fcb2ccc5a1400d830fb] 'What was Destiny's Child's first major song hit?'
+      Retrieved chunk IDs: ['Beyoncé_37', 'Beyoncé_38', 'Beyoncé_21', 'Beyoncé_36', 'Beyoncé_58']
+      -> Chunk match: False
+   [Question #88 id=56d45fcb2ccc5a1400d830fc] 'When did Destiny's Child release their second album?'
+      Retrieved chunk IDs: ['Beyoncé_21', 'Beyoncé_36', 'Beyoncé_58', 'Beyoncé_37', 'Beyoncé_9']
+      -> Chunk match: False
+   [Question #89 id=56d45fcb2ccc5a1400d830fd] 'Who did Beyoncé sing a duet with for "The Best Man" film?'
+      Retrieved chunk IDs: ['Beyoncé_39', 'Beyoncé_21', 'Beyoncé_38', 'Beyoncé_41', 'Beyoncé_16']
+      -> Chunk match: False
+
+-- Chunk 8/10 (title: 'Beyoncé', id: 'Beyoncé_8') --
+   [Question #90 id=56be8d423aeaaa14008c90b2] 'What mental health issue did Beyonce go through?'
+      Retrieved chunk IDs: ['Beyoncé_21', 'Beyoncé_36', 'Beyoncé_58', 'Beyoncé_44', 'Beyoncé_31']
+      -> Chunk match: False
+   [Question #91 id=56be8d423aeaaa14008c90b3] 'What event occured after she was publicly criticized?'
+      Retrieved chunk IDs: ['Beyoncé_58', 'Beyoncé_53', 'Beyoncé_32', 'Beyoncé_36', 'Beyoncé_31']
+      -> Chunk match: False
+   [Question #92 id=56be8d423aeaaa14008c90b6] 'Who supported Beyonce through her depression?'
+      Retrieved chunk IDs: ['Beyoncé_21', 'Beyoncé_41', 'Beyoncé_28', 'Beyoncé_39', 'Beyoncé_33']
+      -> Chunk match: False
+   [Question #93 id=56bf7e603aeaaa14008c9681] 'What event caused Beyonce's depression?'
+      Retrieved chunk IDs: ['Beyoncé_21', 'Beyoncé_58', 'Beyoncé_53', 'Beyoncé_36', 'Beyoncé_31']
+      -> Chunk match: False
+   [Question #94 id=56bf7e603aeaaa14008c9682] 'How long was Beyonce depressed?'
+      Retrieved chunk IDs: ['Beyoncé_21', 'Beyoncé_58', 'Beyoncé_33', 'Beyoncé_44', 'Beyoncé_53']
+      -> Chunk match: False
+   [Question #95 id=56bf7e603aeaaa14008c9685] 'Who helped Beyonce fight her depression the most?'
+      Retrieved chunk IDs: ['Beyoncé_21', 'Beyoncé_41', 'Beyoncé_28', 'Beyoncé_33', 'Beyoncé_39']
+      -> Chunk match: False
+   [Question #96 id=56d462f82ccc5a1400d8311f] 'Who replaced Luckett and Roberson in Destiny's Child?'
+      Retrieved chunk IDs: ['Beyoncé_42', 'Beyoncé_8', 'Beyoncé_58', 'Beyoncé_37', 'Beyoncé_21']
+      -> Chunk match: True
+   [Question #97 id=56d462f82ccc5a1400d83120] 'Who was blamed for Luckett and Roberson leaving Destiny's Child?'
+      Retrieved chunk IDs: ['Beyoncé_21', 'Beyoncé_8', 'Beyoncé_33', 'Beyoncé_37', 'Beyoncé_9']
+      -> Chunk match: True
+   [Question #98 id=56d462f82ccc5a1400d83121] 'Who helped Beyoncé overcome her depression during the years following the Destiny's Child split?'
+      Retrieved chunk IDs: ['Beyoncé_21', 'Beyoncé_33', 'Beyoncé_41', 'Beyoncé_28', 'Beyoncé_39']
+      -> Chunk match: False
+   [Question #99 id=56d462f82ccc5a1400d83123] 'Which newest member was removed from Destiny's Child?'
+      Retrieved chunk IDs: ['Beyoncé_8', 'Beyoncé_21', 'Beyoncé_42', 'Beyoncé_9', 'Beyoncé_58']
+      -> Chunk match: True
+
+-- Chunk 9/10 (title: 'Beyoncé', id: 'Beyoncé_9') --
+   [Question #100 id=56be8e353aeaaa14008c90c6] '"Charlie's Angels" featured which single from the band members?'
+      Retrieved chunk IDs: ['Beyoncé_58', 'Beyoncé_38', 'Beyoncé_39', 'Beyoncé_21', 'Beyoncé_32']
+      -> Chunk match: False
+   [Question #101 id=56be8e353aeaaa14008c90c7] 'How many weeks did their single "Independent Women Part I" stay on top?'
+      Retrieved chunk IDs: ['Beyoncé_58', 'Beyoncé_38', 'Beyoncé_21', 'Beyoncé_36', 'Beyoncé_53']
+      -> Chunk match: False
+   [Question #102 id=56be8e353aeaaa14008c90c8] 'For what network, did Beyonce land a major movie role in?'
+      Retrieved chunk IDs: ['Beyoncé_58', 'Beyoncé_21', 'Beyoncé_55', 'Beyoncé_16', 'Beyoncé_53']
+      -> Chunk match: False
+   [Question #103 id=56be8e353aeaaa14008c90c9] 'Their third album, Survivor, sold how many during its first week?'
+      Retrieved chunk IDs: ['Beyoncé_58', 'Beyoncé_38', 'Beyoncé_21', 'Beyoncé_36', 'Beyoncé_32']
+      -> Chunk match: False
+   [Question #104 id=56bf89cfa10cfb1400551162] 'What French composer wrote the original opera ''Carmen'' in the 19th century?'
+      Retrieved chunk IDs: ['Beyoncé_32', 'Beyoncé_21', 'Beyoncé_58', 'Beyoncé_36', 'Beyoncé_53']
+      -> Chunk match: False
+   [Question #105 id=56bf89cfa10cfb1400551163] 'What album caused a lawsuit to be filed in 2001?'
+      Retrieved chunk IDs: ['Beyoncé_58', 'Beyoncé_53', 'Beyoncé_38', 'Beyoncé_39', 'Beyoncé_45']
+      -> Chunk match: False
+   [Question #106 id=56d4831f2ccc5a1400d83154] 'Independent Women Part I was on which 2000 film's soundtrack?'
+      Retrieved chunk IDs: ['Beyoncé_58', 'Beyoncé_38', 'Beyoncé_16', 'Beyoncé_44', 'Beyoncé_21']
+      -> Chunk match: False
+   [Question #107 id=56d4831f2ccc5a1400d83155] 'Which film did Beyoncé star in 2001 with Mekhi Phifer?'
+      Retrieved chunk IDs: ['Beyoncé_16', 'Beyoncé_58', 'Beyoncé_21', 'Beyoncé_38', 'Beyoncé_44']
+      -> Chunk match: False
+   [Question #108 id=56d4831f2ccc5a1400d83156] 'What was the name of Destiny Child's third album?'
+      Retrieved chunk IDs: ['Beyoncé_21', 'Beyoncé_9', 'Beyoncé_12', 'Beyoncé_8', 'Beyoncé_11']
+      -> Chunk match: True
+   [Question #109 id=56d4831f2ccc5a1400d83157] 'Who filed a lawsuit over Survivor?'
+      Retrieved chunk IDs: ['Beyoncé_58', 'Beyoncé_21', 'Beyoncé_33', 'Beyoncé_53', 'Beyoncé_26']
+      -> Chunk match: False
+   [Question #110 id=56d4831f2ccc5a1400d83158] 'When did Destiny's Child announce their hiatus?'
+      Retrieved chunk IDs: ['Beyoncé_21', 'Beyoncé_58', 'Beyoncé_33', 'Beyoncé_44', 'Beyoncé_53']
+      -> Chunk match: False
+
+-- Chunk 10/10 (title: 'Beyoncé', id: 'Beyoncé_10') --
+   [Question #111 id=56be8fdf3aeaaa14008c90da] 'Who did Beyonce star with in the movie, "Austin Powers in Goldmember"?'
+      Retrieved chunk IDs: ['Beyoncé_21', 'Beyoncé_41', 'Beyoncé_16', 'Beyoncé_44', 'Beyoncé_55']
+      -> Chunk match: False
+   [Question #112 id=56be8fdf3aeaaa14008c90db] 'Which three countries did Beyonce's song "Work It Out" achieve top ten status?'
+      Retrieved chunk IDs: ['Beyoncé_58', 'Beyoncé_36', 'Beyoncé_38', 'Beyoncé_21', 'Beyoncé_32']
+      -> Chunk match: False
+   [Question #113 id=56be8fdf3aeaaa14008c90dc] 'Beyonce starred with Cuba Gooding Jr. in which film?'
+      Retrieved chunk IDs: ['Beyoncé_58', 'Beyoncé_21', 'Beyoncé_16', 'Beyoncé_55', 'Beyoncé_41']
+      -> Chunk match: False
+   [Question #114 id=56be8fdf3aeaaa14008c90dd] 'Who did Beyonce record the lead single with in the movie "The Fighting Temptations"?'
+      Retrieved chunk IDs: ['Beyoncé_21', 'Beyoncé_33', 'Beyoncé_16', 'Beyoncé_26', 'Beyoncé_10']
+      -> Chunk match: True
+   [Question #115 id=56be8fdf3aeaaa14008c90de] 'Which other song from the soundtrack did better in the charts?'
+      Retrieved chunk IDs: ['Beyoncé_58', 'Beyoncé_21', 'Beyoncé_38', 'Beyoncé_53', 'Beyoncé_36']
+      -> Chunk match: False
+   [Question #116 id=56bf8c8aa10cfb140055116b] 'What film did Beyonce appear in with Mike Myers?'
+      Retrieved chunk IDs: ['Beyoncé_21', 'Beyoncé_58', 'Beyoncé_16', 'Beyoncé_55', 'Beyoncé_44']
+      -> Chunk match: False
+   [Question #117 id=56bf8c8aa10cfb140055116c] 'What large amount did the movie "Goldmember" gross?'
+      Retrieved chunk IDs: ['Beyoncé_58', 'Beyoncé_21', 'Beyoncé_26', 'Beyoncé_10', 'Beyoncé_16']
+      -> Chunk match: True
+   [Question #118 id=56bf8c8aa10cfb140055116d] 'What genre of movie did Beyonce star in with Cuba Gooding, Jr?'
+      Retrieved chunk IDs: ['Beyoncé_21', 'Beyoncé_55', 'Beyoncé_58', 'Beyoncé_16', 'Beyoncé_17']
+      -> Chunk match: False
+   [Question #119 id=56bf8c8aa10cfb140055116e] 'What song was the lead single from the film's sound track?'
+      Retrieved chunk IDs: ['Beyoncé_58', 'Beyoncé_36', 'Beyoncé_53', 'Beyoncé_21', 'Beyoncé_38']
+      -> Chunk match: False
+   [Question #120 id=56bf8c8aa10cfb140055116f] 'How did the critics view the movie, ''The Fighting Temptations''?'
+      Retrieved chunk IDs: ['Beyoncé_21', 'Beyoncé_26', 'Beyoncé_33', 'Beyoncé_32', 'Beyoncé_45']
+      -> Chunk match: False
+   [Question #121 id=56d484312ccc5a1400d8315e] 'What film did Beyoncé star in with Mike Myers in 2002?'
+      Retrieved chunk IDs: ['Beyoncé_21', 'Beyoncé_16', 'Beyoncé_53', 'Beyoncé_55', 'Beyoncé_36']
+      -> Chunk match: False
+   [Question #122 id=56d484312ccc5a1400d8315f] 'What was Beyoncé's character called in Austin Powers in Goldmember?'
+      Retrieved chunk IDs: ['Beyoncé_57', 'Beyoncé_41', 'Beyoncé_21', 'Beyoncé_55', 'Beyoncé_16']
+      -> Chunk match: False
+   [Question #123 id=56d484312ccc5a1400d83160] 'Which song did Beyoncé release as the lead single for Austin Powers in Goldmember's soundtrack?'
+      Retrieved chunk IDs: ['Beyoncé_21', 'Beyoncé_36', 'Beyoncé_55', 'Beyoncé_38', 'Beyoncé_44']
+      -> Chunk match: False
+   [Question #124 id=56d484312ccc5a1400d83161] 'What musical comedy did Beyoncé star in along with Cuba Gooding, Jr. in 2003?'
+      Retrieved chunk IDs: ['Beyoncé_21', 'Beyoncé_55', 'Beyoncé_16', 'Beyoncé_58', 'Beyoncé_11']
+      -> Chunk match: False
+   [Question #125 id=56d484312ccc5a1400d83162] 'What song did Beyoncé release as the lead single from The Fighting Tempations?'
+      Retrieved chunk IDs: ['Beyoncé_21', 'Beyoncé_26', 'Beyoncé_38', 'Beyoncé_36', 'Beyoncé_55']
+      -> Chunk match: False
+Reached max_chunks (10), stopping evaluation.
+=== Evaluating method 'search_on_questions' (top_k=5, max_chunks=10) ===
+
+-- Chunk 1/10 (title: 'Beyoncé', id: 'Beyoncé_1') --
+   [Question #1 id=56be85543aeaaa14008c9063] 'When did Beyonce start becoming popular?'
+      Retrieved chunk IDs: ['Beyoncé_18', 'Beyoncé_28', 'Beyoncé_15', 'Beyoncé_27', 'Beyoncé_3']
+      -> Chunk match: False
+   [Question #2 id=56be85543aeaaa14008c9065] 'What areas did Beyonce compete in when she was growing up?'
+      Retrieved chunk IDs: ['Beyoncé_47', 'Beyoncé_3', 'Beyoncé_50', 'Beyoncé_35', 'Beyoncé_18']
+      -> Chunk match: False
+   [Question #3 id=56be85543aeaaa14008c9066] 'When did Beyonce leave Destiny's Child and become a solo singer?'
+      Retrieved chunk IDs: ['Beyoncé_18', 'Beyoncé_28', 'Beyoncé_15', 'Beyoncé_30', 'Beyoncé_27']
+      -> Chunk match: False
+   [Question #4 id=56bf6b0f3aeaaa14008c9601] 'In what city and state did Beyonce  grow up? '
+      Retrieved chunk IDs: ['Beyoncé_4', 'Beyoncé_5', 'Beyoncé_1', 'Beyoncé_48', 'Beyoncé_27']
+      -> Chunk match: True
+   [Question #5 id=56bf6b0f3aeaaa14008c9602] 'In which decade did Beyonce become famous?'
+      Retrieved chunk IDs: ['Beyoncé_34', 'Beyoncé_18', 'Beyoncé_55', 'Beyoncé_46', 'Beyoncé_28']
+      -> Chunk match: False
+   [Question #6 id=56bf6b0f3aeaaa14008c9603] 'In what R&B group was she the lead singer?'
+      Retrieved chunk IDs: ['Beyoncé_1', 'Beyoncé_6', 'Beyoncé_9', 'Beyoncé_41', 'Beyoncé_8']
+      -> Chunk match: True
+   [Question #7 id=56bf6b0f3aeaaa14008c9604] 'What album made her a worldwide known artist?'
+      Retrieved chunk IDs: ['Beyoncé_57', 'Beyoncé_43', 'Beyoncé_38', 'Beyoncé_51', 'Beyoncé_53']
+      -> Chunk match: False
+   [Question #8 id=56bf6b0f3aeaaa14008c9605] 'Who managed the Destiny's Child group?'
+      Retrieved chunk IDs: ['Beyoncé_2', 'Beyoncé_6', 'Beyoncé_8', 'Beyoncé_40', 'Beyoncé_56']
+      -> Chunk match: False
+   [Question #9 id=56d43c5f2ccc5a1400d830a9] 'When did Beyoncé rise to fame?'
+      Retrieved chunk IDs: ['Beyoncé_18', 'Beyoncé_28', 'Beyoncé_15', 'Beyoncé_46', 'Beyoncé_30']
+      -> Chunk match: False
+   [Question #10 id=56d43c5f2ccc5a1400d830aa] 'What role did Beyoncé have in Destiny's Child?'
+      Retrieved chunk IDs: ['Beyoncé_40', 'Beyoncé_45', 'Beyoncé_37', 'Beyoncé_31', 'Beyoncé_15']
+      -> Chunk match: False
+   [Question #11 id=56d43c5f2ccc5a1400d830ab] 'What was the first album Beyoncé released as a solo artist?'
+      Retrieved chunk IDs: ['Beyoncé_55', 'Beyoncé_11', 'Beyoncé_15', 'Beyoncé_24', 'Beyoncé_36']
+      -> Chunk match: False
+   [Question #12 id=56d43c5f2ccc5a1400d830ac] 'When did Beyoncé release Dangerously in Love?'
+      Retrieved chunk IDs: ['Beyoncé_15', 'Beyoncé_28', 'Beyoncé_18', 'Beyoncé_27', 'Beyoncé_46']
+      -> Chunk match: False
+   [Question #13 id=56d43c5f2ccc5a1400d830ad] 'How many Grammy awards did Beyoncé win for her first solo album?'
+      Retrieved chunk IDs: ['Beyoncé_17', 'Beyoncé_11', 'Beyoncé_38', 'Beyoncé_16', 'Beyoncé_54']
+      -> Chunk match: False
+   [Question #14 id=56d43ce42ccc5a1400d830b4] 'What was Beyoncé's role in Destiny's Child?'
+      Retrieved chunk IDs: ['Beyoncé_40', 'Beyoncé_37', 'Beyoncé_45', 'Beyoncé_3', 'Beyoncé_30']
+      -> Chunk match: False
+   [Question #15 id=56d43ce42ccc5a1400d830b5] 'What was the name of Beyoncé's first solo album?'
+      Retrieved chunk IDs: ['Beyoncé_11', 'Beyoncé_55', 'Beyoncé_15', 'Beyoncé_24', 'Beyoncé_1']
+      -> Chunk match: True
+
+-- Chunk 2/10 (title: 'Beyoncé', id: 'Beyoncé_2') --
+   [Question #16 id=56be86cf3aeaaa14008c9076] 'After her second solo album, what other entertainment venture did Beyonce explore?'
+      Retrieved chunk IDs: ['Beyoncé_40', 'Beyoncé_45', 'Beyoncé_58', 'Beyoncé_15', 'Beyoncé_1']
+      -> Chunk match: False
+   [Question #17 id=56be86cf3aeaaa14008c9078] 'Which artist did Beyonce marry?'
+      Retrieved chunk IDs: ['Beyoncé_34', 'Beyoncé_27', 'Beyoncé_15', 'Beyoncé_40', 'Beyoncé_26']
+      -> Chunk match: False
+   [Question #18 id=56be86cf3aeaaa14008c9079] 'To set the record for Grammys, how many did Beyonce win?'
+      Retrieved chunk IDs: ['Beyoncé_55', 'Beyoncé_17', 'Beyoncé_15', 'Beyoncé_27', 'Beyoncé_31']
+      -> Chunk match: False
+   [Question #19 id=56bf6e823aeaaa14008c9627] 'For what movie did Beyonce receive  her first Golden Globe nomination?'
+      Retrieved chunk IDs: ['Beyoncé_2', 'Beyoncé_55', 'Beyoncé_23', 'Beyoncé_14', 'Beyoncé_10']
+      -> Chunk match: True
+   [Question #20 id=56bf6e823aeaaa14008c9629] 'When did Beyonce take a hiatus in her career and take control of her management?'
+      Retrieved chunk IDs: ['Beyoncé_27', 'Beyoncé_28', 'Beyoncé_15', 'Beyoncé_18', 'Beyoncé_44']
+      -> Chunk match: False
+   [Question #21 id=56bf6e823aeaaa14008c962a] 'Which album was darker in tone from her previous work?'
+      Retrieved chunk IDs: ['Beyoncé_51', 'Beyoncé_38', 'Beyoncé_31', 'Beyoncé_43', 'Beyoncé_26']
+      -> Chunk match: False
+   [Question #22 id=56bf6e823aeaaa14008c962b] 'After what movie portraying Etta James, did Beyonce create Sasha Fierce?'
+      Retrieved chunk IDs: ['Beyoncé_2', 'Beyoncé_55', 'Beyoncé_14', 'Beyoncé_42', 'Beyoncé_44']
+      -> Chunk match: True
+   [Question #23 id=56d43da72ccc5a1400d830bd] 'When did Destiny's Child end their group act?'
+      Retrieved chunk IDs: ['Beyoncé_15', 'Beyoncé_58', 'Beyoncé_27', 'Beyoncé_18', 'Beyoncé_59']
+      -> Chunk match: False
+   [Question #24 id=56d43da72ccc5a1400d830be] 'What was the name of Beyoncé's second solo album?'
+      Retrieved chunk IDs: ['Beyoncé_15', 'Beyoncé_55', 'Beyoncé_2', 'Beyoncé_44', 'Beyoncé_24']
+      -> Chunk match: True
+   [Question #25 id=56d43da72ccc5a1400d830bf] 'What was Beyoncé's first acting job, in 2006?'
+      Retrieved chunk IDs: ['Beyoncé_14', 'Beyoncé_10', 'Beyoncé_2', 'Beyoncé_55', 'Beyoncé_7']
+      -> Chunk match: True
+   [Question #26 id=56d43da72ccc5a1400d830c0] 'Who is Beyoncé married to?'
+      Retrieved chunk IDs: ['Beyoncé_15', 'Beyoncé_27', 'Beyoncé_40', 'Beyoncé_28', 'Beyoncé_45']
+      -> Chunk match: False
+   [Question #27 id=56d43da72ccc5a1400d830c1] 'What is the name of Beyoncé's alter-ego?'
+      Retrieved chunk IDs: ['Beyoncé_41', 'Beyoncé_26', 'Beyoncé_48', 'Beyoncé_42', 'Beyoncé_2']
+      -> Chunk match: True
+
+-- Chunk 3/10 (title: 'Beyoncé', id: 'Beyoncé_3') --
+   [Question #28 id=56be88473aeaaa14008c9080] 'In her music, what are some recurring elements in them?'
+      Retrieved chunk IDs: ['Beyoncé_37', 'Beyoncé_47', 'Beyoncé_50', 'Beyoncé_31', 'Beyoncé_3']
+      -> Chunk match: True
+   [Question #29 id=56be88473aeaaa14008c9083] 'Time magazine named her one of the most 100 what people of the century?'
+      Retrieved chunk IDs: ['Beyoncé_45', 'Beyoncé_29', 'Beyoncé_41', 'Beyoncé_31', 'Beyoncé_38']
+      -> Chunk match: False
+   [Question #30 id=56be88473aeaaa14008c9084] 'Which magazine declared her the most dominant woman musician?'
+      Retrieved chunk IDs: ['Beyoncé_31', 'Beyoncé_43', 'Beyoncé_45', 'Beyoncé_50', 'Beyoncé_38']
+      -> Chunk match: False
+   [Question #31 id=56bf725c3aeaaa14008c9643] 'In which decade did the Recording Industry Association of America recognize Beyonce as the The Top Certified Artist?'
+      Retrieved chunk IDs: ['Beyoncé_38', 'Beyoncé_19', 'Beyoncé_54', 'Beyoncé_46', 'Beyoncé_12']
+      -> Chunk match: False
+   [Question #32 id=56bf725c3aeaaa14008c9644] 'What magazine rated Beyonce as the most powerful female musician in 2015?'
+      Retrieved chunk IDs: ['Beyoncé_31', 'Beyoncé_19', 'Beyoncé_46', 'Beyoncé_34', 'Beyoncé_38']
+      -> Chunk match: False
+   [Question #33 id=56bf725c3aeaaa14008c9645] 'How did Beyonce describe herself as a feminist?'
+      Retrieved chunk IDs: ['Beyoncé_31', 'Beyoncé_45', 'Beyoncé_50', 'Beyoncé_30', 'Beyoncé_37']
+      -> Chunk match: False
+   [Question #34 id=56bf725c3aeaaa14008c9646] 'In which years did Time rate Beyonce in the 100 most influential people in the world?'
+      Retrieved chunk IDs: ['Beyoncé_34', 'Beyoncé_19', 'Beyoncé_54', 'Beyoncé_18', 'Beyoncé_64']
+      -> Chunk match: False
+   [Question #35 id=56bf725c3aeaaa14008c9647] 'How many records has Beyonce sold in her 19 year career?'
+      Retrieved chunk IDs: ['Beyoncé_54', 'Beyoncé_55', 'Beyoncé_15', 'Beyoncé_31', 'Beyoncé_30']
+      -> Chunk match: False
+   [Question #36 id=56d43f7e2ccc5a1400d830c7] 'How many records did Beyoncé sell as part of Destiny's Child?'
+      Retrieved chunk IDs: ['Beyoncé_33', 'Beyoncé_54', 'Beyoncé_30', 'Beyoncé_18', 'Beyoncé_64']
+      -> Chunk match: False
+   [Question #37 id=56d43f7e2ccc5a1400d830c8] 'After leaving Destiny's Child, how many records did Beyoncé release under her own name?'
+      Retrieved chunk IDs: ['Beyoncé_17', 'Beyoncé_21', 'Beyoncé_54', 'Beyoncé_55', 'Beyoncé_18']
+      -> Chunk match: False
+   [Question #38 id=56d43f7e2ccc5a1400d830c9] 'How many Grammy awards has Beyoncé won?'
+      Retrieved chunk IDs: ['Beyoncé_55', 'Beyoncé_54', 'Beyoncé_15', 'Beyoncé_27', 'Beyoncé_17']
+      -> Chunk match: False
+   [Question #39 id=56d43f7e2ccc5a1400d830cb] 'What magazine named Beyoncé as the most powerful female musician for 2015?'
+      Retrieved chunk IDs: ['Beyoncé_31', 'Beyoncé_46', 'Beyoncé_38', 'Beyoncé_34', 'Beyoncé_19']
+      -> Chunk match: False
+
+-- Chunk 4/10 (title: 'Beyoncé', id: 'Beyoncé_4') --
+   [Question #40 id=56be892d3aeaaa14008c908b] 'Beyonce's younger sibling also sang with her in what band?'
+      Retrieved chunk IDs: ['Beyoncé_1', 'Beyoncé_8', 'Beyoncé_6', 'Beyoncé_2', 'Beyoncé_56']
+      -> Chunk match: False
+   [Question #41 id=56be892d3aeaaa14008c908c] 'Where did Beyonce get her name from?'
+      Retrieved chunk IDs: ['Beyoncé_48', 'Beyoncé_27', 'Beyoncé_15', 'Beyoncé_40', 'Beyoncé_45']
+      -> Chunk match: False
+   [Question #42 id=56be892d3aeaaa14008c908d] 'What race was Beyonce's father?'
+      Retrieved chunk IDs: ['Beyoncé_6', 'Beyoncé_27', 'Beyoncé_15', 'Beyoncé_4', 'Beyoncé_28']
+      -> Chunk match: True
+   [Question #43 id=56be892d3aeaaa14008c908e] 'Beyonce's childhood home believed in what religion?'
+      Retrieved chunk IDs: ['Beyoncé_5', 'Beyoncé_4', 'Beyoncé_30', 'Beyoncé_48', 'Beyoncé_31']
+      -> Chunk match: True
+   [Question #44 id=56bf74d53aeaaa14008c9659] 'Beyonce's father worked as a sales manager for what company?'
+      Retrieved chunk IDs: ['Beyoncé_5', 'Beyoncé_4', 'Beyoncé_6', 'Beyoncé_40', 'Beyoncé_48']
+      -> Chunk match: True
+   [Question #45 id=56bf74d53aeaaa14008c965a] 'Beyonce's mother worked in what industry?'
+      Retrieved chunk IDs: ['Beyoncé_4', 'Beyoncé_5', 'Beyoncé_1', 'Beyoncé_8', 'Beyoncé_41']
+      -> Chunk match: True
+   [Question #46 id=56bf74d53aeaaa14008c965b] 'What younger sister of Beyonce also appeared in Destiny's Child?'
+      Retrieved chunk IDs: ['Beyoncé_8', 'Beyoncé_2', 'Beyoncé_40', 'Beyoncé_41', 'Beyoncé_21']
+      -> Chunk match: False
+   [Question #47 id=56bf74d53aeaaa14008c965d] 'Beyonce is a descendent of what Arcadian leader?'
+      Retrieved chunk IDs: ['Beyoncé_42', 'Beyoncé_48', 'Beyoncé_31', 'Beyoncé_1', 'Beyoncé_58']
+      -> Chunk match: False
+   [Question #48 id=56d440df2ccc5a1400d830d1] 'What company did Beyoncé's father work for when she was a child?'
+      Retrieved chunk IDs: ['Beyoncé_5', 'Beyoncé_4', 'Beyoncé_6', 'Beyoncé_1', 'Beyoncé_11']
+      -> Chunk match: True
+   [Question #49 id=56d440df2ccc5a1400d830d2] 'What did Beyoncé's mother own when Beyoncé was a child?'
+      Retrieved chunk IDs: ['Beyoncé_64', 'Beyoncé_16', 'Beyoncé_45', 'Beyoncé_40', 'Beyoncé_8']
+      -> Chunk match: False
+   [Question #50 id=56d440df2ccc5a1400d830d3] 'What is the name of Beyoncé's younger sister?'
+      Retrieved chunk IDs: ['Beyoncé_21', 'Beyoncé_8', 'Beyoncé_41', 'Beyoncé_40', 'Beyoncé_2']
+      -> Chunk match: False
+   [Question #51 id=56d440df2ccc5a1400d830d4] 'Beyoncé is a descendant of which Acadian leader?'
+      Retrieved chunk IDs: ['Beyoncé_4', 'Beyoncé_3', 'Beyoncé_1', 'Beyoncé_34', 'Beyoncé_48']
+      -> Chunk match: True
+   [Question #52 id=56d440df2ccc5a1400d830d5] 'Beyoncé was raised in what religion?'
+      Retrieved chunk IDs: ['Beyoncé_15', 'Beyoncé_27', 'Beyoncé_48', 'Beyoncé_1', 'Beyoncé_31']
+      -> Chunk match: False
+
+-- Chunk 5/10 (title: 'Beyoncé', id: 'Beyoncé_5') --
+   [Question #53 id=56be8a583aeaaa14008c9094] 'What town did Beyonce go to school in?'
+      Retrieved chunk IDs: ['Beyoncé_5', 'Beyoncé_4', 'Beyoncé_27', 'Beyoncé_41', 'Beyoncé_15']
+      -> Chunk match: True
+   [Question #54 id=56be8a583aeaaa14008c9095] 'Who was the first person to notice Beyonce's singing ability?'
+      Retrieved chunk IDs: ['Beyoncé_40', 'Beyoncé_45', 'Beyoncé_18', 'Beyoncé_31', 'Beyoncé_27']
+      -> Chunk match: False
+   [Question #55 id=56be8a583aeaaa14008c9097] 'Beyonce moved to which town after she left her first elementary school?'
+      Retrieved chunk IDs: ['Beyoncé_5', 'Beyoncé_4', 'Beyoncé_11', 'Beyoncé_1', 'Beyoncé_56']
+      -> Chunk match: True
+   [Question #56 id=56bf76ef3aeaaa14008c9664] 'Which of her teachers discovered Beyonce's musical talent?'
+      Retrieved chunk IDs: ['Beyoncé_6', 'Beyoncé_4', 'Beyoncé_8', 'Beyoncé_5', 'Beyoncé_48']
+      -> Chunk match: True
+   [Question #57 id=56bf76ef3aeaaa14008c9665] 'I which church was Beyonce  a member and soloist  in the choir?'
+      Retrieved chunk IDs: ['Beyoncé_5', 'Beyoncé_1', 'Beyoncé_41', 'Beyoncé_48', 'Beyoncé_11']
+      -> Chunk match: True
+   [Question #58 id=56bf76ef3aeaaa14008c9666] 'What type of school was Parker Elementary School?'
+      Retrieved chunk IDs: ['Beyoncé_64', 'Beyoncé_58', 'Beyoncé_33', 'Beyoncé_42', 'Beyoncé_27']
+      -> Chunk match: False
+   [Question #59 id=56bf76ef3aeaaa14008c9667] 'Which song did Beyonce sing to win a competition at age 7?'
+      Retrieved chunk IDs: ['Beyoncé_5', 'Beyoncé_11', 'Beyoncé_14', 'Beyoncé_22', 'Beyoncé_30']
+      -> Chunk match: True
+   [Question #60 id=56d443ef2ccc5a1400d830db] 'What city was Beyoncé's elementary school located in?'
+      Retrieved chunk IDs: ['Beyoncé_5', 'Beyoncé_4', 'Beyoncé_1', 'Beyoncé_11', 'Beyoncé_48']
+      -> Chunk match: True
+   [Question #61 id=56d443ef2ccc5a1400d830dc] 'What was the name of Beyoncé's first dance instructor?'
+      Retrieved chunk IDs: ['Beyoncé_41', 'Beyoncé_56', 'Beyoncé_36', 'Beyoncé_6', 'Beyoncé_4']
+      -> Chunk match: False
+   [Question #62 id=56d443ef2ccc5a1400d830dd] 'How old was Beyoncé when she won a school talent show?'
+      Retrieved chunk IDs: ['Beyoncé_45', 'Beyoncé_31', 'Beyoncé_17', 'Beyoncé_15', 'Beyoncé_40']
+      -> Chunk match: False
+   [Question #63 id=56d443ef2ccc5a1400d830df] 'What choir did Beyoncé sing in for two years?'
+      Retrieved chunk IDs: ['Beyoncé_5', 'Beyoncé_1', 'Beyoncé_11', 'Beyoncé_56', 'Beyoncé_7']
+      -> Chunk match: True
+
+-- Chunk 6/10 (title: 'Beyoncé', id: 'Beyoncé_6') --
+   [Question #64 id=56be8bab3aeaaa14008c909f] 'Who decided to place Beyonce's group in Star Search the talent show?'
+      Retrieved chunk IDs: ['Beyoncé_45', 'Beyoncé_31', 'Beyoncé_40', 'Beyoncé_18', 'Beyoncé_59']
+      -> Chunk match: False
+   [Question #65 id=56be8bab3aeaaa14008c90a0] 'In 1995, who decided to manage the girls singing group?'
+      Retrieved chunk IDs: ['Beyoncé_42', 'Beyoncé_6', 'Beyoncé_45', 'Beyoncé_43', 'Beyoncé_58']
+      -> Chunk match: True
+   [Question #66 id=56be8bab3aeaaa14008c90a1] 'Who was the first record label to give the girls a record deal?'
+      Retrieved chunk IDs: ['Beyoncé_6', 'Beyoncé_58', 'Beyoncé_43', 'Beyoncé_42', 'Beyoncé_8']
+      -> Chunk match: True
+   [Question #67 id=56bf79c73aeaaa14008c966d] 'Who brought Beyonce to California and enter her group in Star Search?'
+      Retrieved chunk IDs: ['Beyoncé_40', 'Beyoncé_31', 'Beyoncé_2', 'Beyoncé_41', 'Beyoncé_48']
+      -> Chunk match: False
+   [Question #68 id=56bf79c73aeaaa14008c966e] 'In what year did Beyonce's father quit his job to manage her group?'
+      Retrieved chunk IDs: ['Beyoncé_38', 'Beyoncé_12', 'Beyoncé_7', 'Beyoncé_65', 'Beyoncé_11']
+      -> Chunk match: False
+   [Question #69 id=56bf79c73aeaaa14008c966f] 'What large record company recorded Beyonce's group's first album?'
+      Retrieved chunk IDs: ['Beyoncé_1', 'Beyoncé_2', 'Beyoncé_6', 'Beyoncé_56', 'Beyoncé_5']
+      -> Chunk match: True
+   [Question #70 id=56bf79c73aeaaa14008c9670] 'What record company first signed Beyonce's group and later cut them?'
+      Retrieved chunk IDs: ['Beyoncé_6', 'Beyoncé_56', 'Beyoncé_2', 'Beyoncé_1', 'Beyoncé_11']
+      -> Chunk match: True
+   [Question #71 id=56bf79c73aeaaa14008c9671] 'At what age did Beyonce meet LaTavia Robertson?'
+      Retrieved chunk IDs: ['Beyoncé_27', 'Beyoncé_28', 'Beyoncé_18', 'Beyoncé_15', 'Beyoncé_48']
+      -> Chunk match: False
+   [Question #72 id=56d45abf2ccc5a1400d830e5] 'How old was Beyoncé when she met LaTavia Roberson?'
+      Retrieved chunk IDs: ['Beyoncé_27', 'Beyoncé_28', 'Beyoncé_15', 'Beyoncé_18', 'Beyoncé_43']
+      -> Chunk match: False
+   [Question #73 id=56d45abf2ccc5a1400d830e6] 'What was the name of the first group Beyoncé was a part of?'
+      Retrieved chunk IDs: ['Beyoncé_1', 'Beyoncé_6', 'Beyoncé_11', 'Beyoncé_5', 'Beyoncé_7']
+      -> Chunk match: True
+   [Question #74 id=56d45abf2ccc5a1400d830e7] 'Who placed Girl's Tyme in Star Search?'
+      Retrieved chunk IDs: ['Beyoncé_6', 'Beyoncé_2', 'Beyoncé_40', 'Beyoncé_8', 'Beyoncé_41']
+      -> Chunk match: True
+   [Question #75 id=56d45abf2ccc5a1400d830e8] 'When did Beyoncé begin to manage the girl group?'
+      Retrieved chunk IDs: ['Beyoncé_18', 'Beyoncé_27', 'Beyoncé_15', 'Beyoncé_28', 'Beyoncé_59']
+      -> Chunk match: False
+   [Question #76 id=56d45abf2ccc5a1400d830e9] 'Who signed the girl group on October 5, 1995?'
+      Retrieved chunk IDs: ['Beyoncé_6', 'Beyoncé_1', 'Beyoncé_9', 'Beyoncé_58', 'Beyoncé_2']
+      -> Chunk match: True
+
+-- Chunk 7/10 (title: 'Beyoncé', id: 'Beyoncé_7') --
+   [Question #77 id=56be8c8a3aeaaa14008c90a9] 'Which film featured Destiny's Child's first major single?'
+      Retrieved chunk IDs: ['Beyoncé_6', 'Beyoncé_7', 'Beyoncé_61', 'Beyoncé_42', 'Beyoncé_9']
+      -> Chunk match: True
+   [Question #78 id=56be8c8a3aeaaa14008c90ab] 'For which song, did Destiny's Child take home the grammy award for best R&B performance?'
+      Retrieved chunk IDs: ['Beyoncé_9', 'Beyoncé_14', 'Beyoncé_10', 'Beyoncé_53', 'Beyoncé_11']
+      -> Chunk match: False
+   [Question #79 id=56be8c8a3aeaaa14008c90ac] 'Who did Beyonce record with for the movie "The Best Man?"'
+      Retrieved chunk IDs: ['Beyoncé_40', 'Beyoncé_45', 'Beyoncé_27', 'Beyoncé_28', 'Beyoncé_15']
+      -> Chunk match: False
+   [Question #80 id=56bf7cb63aeaaa14008c9677] 'Beyonce's group changed their name to Destiny's Child in what year?'
+      Retrieved chunk IDs: ['Beyoncé_11', 'Beyoncé_12', 'Beyoncé_7', 'Beyoncé_62', 'Beyoncé_38']
+      -> Chunk match: True
+   [Question #81 id=56bf7cb63aeaaa14008c9678] 'The name Destiny's Child was based on a quote in which book of the Bible?'
+      Retrieved chunk IDs: ['Beyoncé_2', 'Beyoncé_31', 'Beyoncé_61', 'Beyoncé_6', 'Beyoncé_8']
+      -> Chunk match: False
+   [Question #82 id=56bf7cb63aeaaa14008c9679] 'Debut song, "Killing Time" was featured on what movie's sound track?'
+      Retrieved chunk IDs: ['Beyoncé_42', 'Beyoncé_57', 'Beyoncé_58', 'Beyoncé_45', 'Beyoncé_40']
+      -> Chunk match: False
+   [Question #83 id=56bf7cb63aeaaa14008c967a] 'What song won Best R&B Performance in the 43 Annual Grammy Awards?'
+      Retrieved chunk IDs: ['Beyoncé_7', 'Beyoncé_55', 'Beyoncé_38', 'Beyoncé_40', 'Beyoncé_51']
+      -> Chunk match: True
+   [Question #84 id=56bf7cb63aeaaa14008c967b] 'What singer did Beyonce record a song with for the movie, ''The Best Man"?'
+      Retrieved chunk IDs: ['Beyoncé_29', 'Beyoncé_41', 'Beyoncé_40', 'Beyoncé_17', 'Beyoncé_2']
+      -> Chunk match: False
+   [Question #85 id=56d45fcb2ccc5a1400d830f9] 'Where did Destiny's Child get their name from?'
+      Retrieved chunk IDs: ['Beyoncé_40', 'Beyoncé_45', 'Beyoncé_48', 'Beyoncé_27', 'Beyoncé_43']
+      -> Chunk match: False
+   [Question #86 id=56d45fcb2ccc5a1400d830fa] 'Destiny's Child song, Killing Time, was included in which film's soundtrack?'
+      Retrieved chunk IDs: ['Beyoncé_7', 'Beyoncé_10', 'Beyoncé_14', 'Beyoncé_9', 'Beyoncé_2']
+      -> Chunk match: True
+   [Question #87 id=56d45fcb2ccc5a1400d830fb] 'What was Destiny's Child's first major song hit?'
+      Retrieved chunk IDs: ['Beyoncé_11', 'Beyoncé_6', 'Beyoncé_42', 'Beyoncé_9', 'Beyoncé_54']
+      -> Chunk match: False
+   [Question #88 id=56d45fcb2ccc5a1400d830fc] 'When did Destiny's Child release their second album?'
+      Retrieved chunk IDs: ['Beyoncé_11', 'Beyoncé_18', 'Beyoncé_22', 'Beyoncé_7', 'Beyoncé_61']
+      -> Chunk match: True
+   [Question #89 id=56d45fcb2ccc5a1400d830fd] 'Who did Beyoncé sing a duet with for "The Best Man" film?'
+      Retrieved chunk IDs: ['Beyoncé_40', 'Beyoncé_38', 'Beyoncé_23', 'Beyoncé_27', 'Beyoncé_15']
+      -> Chunk match: False
+
+-- Chunk 8/10 (title: 'Beyoncé', id: 'Beyoncé_8') --
+   [Question #90 id=56be8d423aeaaa14008c90b2] 'What mental health issue did Beyonce go through?'
+      Retrieved chunk IDs: ['Beyoncé_27', 'Beyoncé_18', 'Beyoncé_28', 'Beyoncé_45', 'Beyoncé_50']
+      -> Chunk match: False
+   [Question #91 id=56be8d423aeaaa14008c90b3] 'What event occured after she was publicly criticized?'
+      Retrieved chunk IDs: ['Beyoncé_49', 'Beyoncé_50', 'Beyoncé_64', 'Beyoncé_31', 'Beyoncé_44']
+      -> Chunk match: False
+   [Question #92 id=56be8d423aeaaa14008c90b6] 'Who supported Beyonce through her depression?'
+      Retrieved chunk IDs: ['Beyoncé_40', 'Beyoncé_15', 'Beyoncé_27', 'Beyoncé_41', 'Beyoncé_45']
+      -> Chunk match: False
+   [Question #93 id=56bf7e603aeaaa14008c9681] 'What event caused Beyonce's depression?'
+      Retrieved chunk IDs: ['Beyoncé_27', 'Beyoncé_28', 'Beyoncé_18', 'Beyoncé_45', 'Beyoncé_43']
+      -> Chunk match: False
+   [Question #94 id=56bf7e603aeaaa14008c9682] 'How long was Beyonce depressed?'
+      Retrieved chunk IDs: ['Beyoncé_45', 'Beyoncé_27', 'Beyoncé_15', 'Beyoncé_28', 'Beyoncé_31']
+      -> Chunk match: False
+   [Question #95 id=56bf7e603aeaaa14008c9685] 'Who helped Beyonce fight her depression the most?'
+      Retrieved chunk IDs: ['Beyoncé_40', 'Beyoncé_41', 'Beyoncé_27', 'Beyoncé_15', 'Beyoncé_2']
+      -> Chunk match: False
+   [Question #96 id=56d462f82ccc5a1400d8311f] 'Who replaced Luckett and Roberson in Destiny's Child?'
+      Retrieved chunk IDs: ['Beyoncé_27', 'Beyoncé_42', 'Beyoncé_58', 'Beyoncé_43', 'Beyoncé_28']
+      -> Chunk match: False
+   [Question #97 id=56d462f82ccc5a1400d83120] 'Who was blamed for Luckett and Roberson leaving Destiny's Child?'
+      Retrieved chunk IDs: ['Beyoncé_8', 'Beyoncé_2', 'Beyoncé_40', 'Beyoncé_6', 'Beyoncé_12']
+      -> Chunk match: True
+   [Question #98 id=56d462f82ccc5a1400d83121] 'Who helped Beyoncé overcome her depression during the years following the Destiny's Child split?'
+      Retrieved chunk IDs: ['Beyoncé_40', 'Beyoncé_41', 'Beyoncé_43', 'Beyoncé_15', 'Beyoncé_2']
+      -> Chunk match: False
+   [Question #99 id=56d462f82ccc5a1400d83123] 'Which newest member was removed from Destiny's Child?'
+      Retrieved chunk IDs: ['Beyoncé_8', 'Beyoncé_2', 'Beyoncé_12', 'Beyoncé_6', 'Beyoncé_41']
+      -> Chunk match: True
+
+-- Chunk 9/10 (title: 'Beyoncé', id: 'Beyoncé_9') --
+   [Question #100 id=56be8e353aeaaa14008c90c6] '"Charlie's Angels" featured which single from the band members?'
+      Retrieved chunk IDs: ['Beyoncé_9', 'Beyoncé_38', 'Beyoncé_57', 'Beyoncé_58', 'Beyoncé_31']
+      -> Chunk match: True
+   [Question #101 id=56be8e353aeaaa14008c90c7] 'How many weeks did their single "Independent Women Part I" stay on top?'
+      Retrieved chunk IDs: ['Beyoncé_11', 'Beyoncé_57', 'Beyoncé_38', 'Beyoncé_17', 'Beyoncé_53']
+      -> Chunk match: False
+   [Question #102 id=56be8e353aeaaa14008c90c8] 'For what network, did Beyonce land a major movie role in?'
+      Retrieved chunk IDs: ['Beyoncé_2', 'Beyoncé_55', 'Beyoncé_23', 'Beyoncé_14', 'Beyoncé_10']
+      -> Chunk match: False
+   [Question #103 id=56be8e353aeaaa14008c90c9] 'Their third album, Survivor, sold how many during its first week?'
+      Retrieved chunk IDs: ['Beyoncé_11', 'Beyoncé_38', 'Beyoncé_17', 'Beyoncé_10', 'Beyoncé_30']
+      -> Chunk match: False
+   [Question #104 id=56bf89cfa10cfb1400551162] 'What French composer wrote the original opera ''Carmen'' in the 19th century?'
+      Retrieved chunk IDs: ['Beyoncé_26', 'Beyoncé_9', 'Beyoncé_35', 'Beyoncé_57', 'Beyoncé_1']
+      -> Chunk match: True
+   [Question #105 id=56bf89cfa10cfb1400551163] 'What album caused a lawsuit to be filed in 2001?'
+      Retrieved chunk IDs: ['Beyoncé_53', 'Beyoncé_58', 'Beyoncé_57', 'Beyoncé_31', 'Beyoncé_45']
+      -> Chunk match: False
+   [Question #106 id=56d4831f2ccc5a1400d83154] 'Independent Women Part I was on which 2000 film's soundtrack?'
+      Retrieved chunk IDs: ['Beyoncé_7', 'Beyoncé_9', 'Beyoncé_1', 'Beyoncé_10', 'Beyoncé_14']
+      -> Chunk match: True
+   [Question #107 id=56d4831f2ccc5a1400d83155] 'Which film did Beyoncé star in 2001 with Mekhi Phifer?'
+      Retrieved chunk IDs: ['Beyoncé_10', 'Beyoncé_14', 'Beyoncé_7', 'Beyoncé_2', 'Beyoncé_23']
+      -> Chunk match: False
+   [Question #108 id=56d4831f2ccc5a1400d83156] 'What was the name of Destiny Child's third album?'
+      Retrieved chunk IDs: ['Beyoncé_9', 'Beyoncé_12', 'Beyoncé_15', 'Beyoncé_8', 'Beyoncé_11']
+      -> Chunk match: True
+   [Question #109 id=56d4831f2ccc5a1400d83157] 'Who filed a lawsuit over Survivor?'
+      Retrieved chunk IDs: ['Beyoncé_58', 'Beyoncé_45', 'Beyoncé_40', 'Beyoncé_42', 'Beyoncé_31']
+      -> Chunk match: False
+   [Question #110 id=56d4831f2ccc5a1400d83158] 'When did Destiny's Child announce their hiatus?'
+      Retrieved chunk IDs: ['Beyoncé_15', 'Beyoncé_27', 'Beyoncé_30', 'Beyoncé_18', 'Beyoncé_28']
+      -> Chunk match: False
+
+-- Chunk 10/10 (title: 'Beyoncé', id: 'Beyoncé_10') --
+   [Question #111 id=56be8fdf3aeaaa14008c90da] 'Who did Beyonce star with in the movie, "Austin Powers in Goldmember"?'
+      Retrieved chunk IDs: ['Beyoncé_40', 'Beyoncé_10', 'Beyoncé_34', 'Beyoncé_14', 'Beyoncé_2']
+      -> Chunk match: True
+   [Question #112 id=56be8fdf3aeaaa14008c90db] 'Which three countries did Beyonce's song "Work It Out" achieve top ten status?'
+      Retrieved chunk IDs: ['Beyoncé_13', 'Beyoncé_38', 'Beyoncé_34', 'Beyoncé_19', 'Beyoncé_48']
+      -> Chunk match: False
+   [Question #113 id=56be8fdf3aeaaa14008c90dc] 'Beyonce starred with Cuba Gooding Jr. in which film?'
+      Retrieved chunk IDs: ['Beyoncé_10', 'Beyoncé_14', 'Beyoncé_2', 'Beyoncé_7', 'Beyoncé_55']
+      -> Chunk match: True
+   [Question #114 id=56be8fdf3aeaaa14008c90dd] 'Who did Beyonce record the lead single with in the movie "The Fighting Temptations"?'
+      Retrieved chunk IDs: ['Beyoncé_10', 'Beyoncé_40', 'Beyoncé_16', 'Beyoncé_6', 'Beyoncé_2']
+      -> Chunk match: True
+   [Question #115 id=56be8fdf3aeaaa14008c90de] 'Which other song from the soundtrack did better in the charts?'
+      Retrieved chunk IDs: ['Beyoncé_57', 'Beyoncé_42', 'Beyoncé_52', 'Beyoncé_53', 'Beyoncé_45']
+      -> Chunk match: False
+   [Question #116 id=56bf8c8aa10cfb140055116b] 'What film did Beyonce appear in with Mike Myers?'
+      Retrieved chunk IDs: ['Beyoncé_14', 'Beyoncé_10', 'Beyoncé_2', 'Beyoncé_23', 'Beyoncé_40']
+      -> Chunk match: True
+   [Question #117 id=56bf8c8aa10cfb140055116c] 'What large amount did the movie "Goldmember" gross?'
+      Retrieved chunk IDs: ['Beyoncé_10', 'Beyoncé_14', 'Beyoncé_30', 'Beyoncé_13', 'Beyoncé_11']
+      -> Chunk match: True
+   [Question #118 id=56bf8c8aa10cfb140055116d] 'What genre of movie did Beyonce star in with Cuba Gooding, Jr?'
+      Retrieved chunk IDs: ['Beyoncé_10', 'Beyoncé_14', 'Beyoncé_2', 'Beyoncé_7', 'Beyoncé_55']
+      -> Chunk match: True
+   [Question #119 id=56bf8c8aa10cfb140055116e] 'What song was the lead single from the film's sound track?'
+      Retrieved chunk IDs: ['Beyoncé_57', 'Beyoncé_53', 'Beyoncé_42', 'Beyoncé_58', 'Beyoncé_45']
+      -> Chunk match: False
+   [Question #120 id=56bf8c8aa10cfb140055116f] 'How did the critics view the movie, ''The Fighting Temptations''?'
+      Retrieved chunk IDs: ['Beyoncé_16', 'Beyoncé_31', 'Beyoncé_45', 'Beyoncé_50', 'Beyoncé_40']
+      -> Chunk match: False
+   [Question #121 id=56d484312ccc5a1400d8315e] 'What film did Beyoncé star in with Mike Myers in 2002?'
+      Retrieved chunk IDs: ['Beyoncé_10', 'Beyoncé_14', 'Beyoncé_7', 'Beyoncé_2', 'Beyoncé_23']
+      -> Chunk match: True
+   [Question #122 id=56d484312ccc5a1400d8315f] 'What was Beyoncé's character called in Austin Powers in Goldmember?'
+      Retrieved chunk IDs: ['Beyoncé_14', 'Beyoncé_10', 'Beyoncé_40', 'Beyoncé_16', 'Beyoncé_8']
+      -> Chunk match: True
+   [Question #123 id=56d484312ccc5a1400d83160] 'Which song did Beyoncé release as the lead single for Austin Powers in Goldmember's soundtrack?'
+      Retrieved chunk IDs: ['Beyoncé_10', 'Beyoncé_11', 'Beyoncé_54', 'Beyoncé_53', 'Beyoncé_26']
+      -> Chunk match: True
+   [Question #124 id=56d484312ccc5a1400d83161] 'What musical comedy did Beyoncé star in along with Cuba Gooding, Jr. in 2003?'
+      Retrieved chunk IDs: ['Beyoncé_10', 'Beyoncé_14', 'Beyoncé_2', 'Beyoncé_7', 'Beyoncé_55']
+      -> Chunk match: True
+   [Question #125 id=56d484312ccc5a1400d83162] 'What song did Beyoncé release as the lead single from The Fighting Tempations?'
+      Retrieved chunk IDs: ['Beyoncé_10', 'Beyoncé_11', 'Beyoncé_14', 'Beyoncé_53', 'Beyoncé_54']
+      -> Chunk match: True
+Reached max_chunks (10), stopping evaluation.
+
+=== Summary ===
+Context-only retrieval accuracy:   21.60% (27/125)
+Question-based retrieval accuracy: 40.80% (51/125)

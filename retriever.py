@@ -39,7 +39,7 @@ class RAGRetriever:
         }
 
         res = self.es.search(index=self.index_name, body=script_query)
-        return [hit["_source"]["context"] for hit in res["hits"]["hits"]], [f"{i}_{hit['_source']['chunk_id']}" for i, hit in enumerate(res["hits"]["hits"]) if i < top_k]
+        return [hit["_source"]["context"] for hit in res["hits"]["hits"]], [f"{hit['_source']['chunk_id']}" for i, hit in enumerate(res["hits"]["hits"]) if i < top_k]
 
     def search_on_questions(self, query_text, top_k=1):
         query_vector = self.get_embedding(query_text)
@@ -86,7 +86,7 @@ class RAGRetriever:
             }
 
         res = self.es.search(index=self.index_name, body=script_query)
-        return [hit["_source"]["context"] for hit in res["hits"]["hits"]], [f"{i}_{hit['_source']['chunk_id']}" for i, hit in enumerate(res["hits"]["hits"]) if i < top_k]
+        return [hit["_source"]["context"] for hit in res["hits"]["hits"]], [f"{hit['_source']['chunk_id']}" for i, hit in enumerate(res["hits"]["hits"]) if i < top_k]
 
 
     def generate_answer(self, context, question):
