@@ -75,7 +75,7 @@ def main():
     )
     acc_qs, _ = evaluate_method(
         retriever, squad,
-        method_name="search_on_questions", top_k=10,
+        method_name="search_on_questions", top_k=1,
         max_chunks=10
     )
 
